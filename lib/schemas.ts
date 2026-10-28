@@ -30,7 +30,7 @@ export const quoteFormSchema = z.object({
     "artificial-intelligence",
     "sales-services",
     "other",
-  ], { required_error: "Please select a service" }),
+  ], { error: "Please select a service" }),
   equipmentSystem: z
     .string()
     .max(200, "Description is too long")
@@ -40,7 +40,7 @@ export const quoteFormSchema = z.object({
     .min(10, "Please provide a brief project description")
     .max(2000, "Description is too long"),
   preferredContact: z.enum(["email", "phone", "either"], {
-    required_error: "Please select a preferred contact method",
+    error: "Please select a preferred contact method",
   }),
   consent: z
     .boolean()
@@ -114,7 +114,7 @@ export const feedbackFormSchema = z.object({
     "communication",
     "documentation",
     "general",
-  ], { required_error: "Please select a feedback category" }),
+  ], { error: "Please select a feedback category" }),
   comments: z
     .string()
     .min(5, "Please provide at least a brief comment")

@@ -23,15 +23,16 @@ export const SITE_CONFIG = {
 
   /** Contact details — replace all [PLACEHOLDER] values */
   contact: {
-    email: "info@qualyzen.com", // [PLACEHOLDER]
-    phone: "+91 00000 00000", // [PLACEHOLDER]
+    email: "qualyzen26@gmail.com", // [PLACEHOLDER]
+    phone: "+91 9666656361", // [PLACEHOLDER]
     address: {
-      line1: "[Office Address Line 1]", // [PLACEHOLDER]
-      line2: "[City, State, PIN Code]", // [PLACEHOLDER]
+      line1: "8-133/3,P.No:74/p srinivas nagar", // [PLACEHOLDER]
+      line2: "Chintal,hyd, Telangana, 500054", // [PLACEHOLDER]
       country: "India", // [PLACEHOLDER]
     },
     businessHours: "Monday – Friday, 9:00 AM – 6:00 PM IST", // [PLACEHOLDER]
-    mapEmbedUrl: "", // [PLACEHOLDER] Google Maps embed URL
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3805.2169695575644!2d78.45573527516738!3d17.497153183408887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI5JzQ5LjgiTiA3OMKwMjcnMjkuOSJF!5e0!3m2!1sen!2sin!4v1793189233722!5m2!1sen!2sin",
   },
 
   /** Social media — replace with actual profiles when available */
